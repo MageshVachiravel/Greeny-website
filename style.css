@@ -1,0 +1,267 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    height:40px;
+    background: #DAFBF0;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+ ul{
+    display: flex;
+    list-style: none;
+    margin-top:10px;
+    margin-right:70px;
+}
+
+ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right:50px;
+}
+
+.home-page{
+    background: #DAFBF0;
+    padding:20px;
+}
+
+.text{
+    margin:10px;
+}
+
+.text p{
+    font-weight: bold;
+}
+
+.text h1{
+    margin-top :35px;
+    margin-left:5px;
+    font-size: 40px;
+}
+
+.text button{
+    padding:8px 20px;
+    margin-left:5px;
+    color:white;
+    background: black;
+    outline: none;
+    border:none;
+    margin-top:10px;
+}
+
+.text .spec{
+    margin-left: 5px;
+    color:grey;
+    margin-top:15px;
+    font-size: 13px;
+}
+
+.home-img{
+    float:right;
+    margin-right:40px;
+}
+
+.head{
+    text-align: center;
+}
+
+.box-group{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.box{
+    text-align: center;
+    width:225px;
+    border: solid grey 2px;
+    padding:20px;
+}
+
+.box i{
+    font-size: 35px;
+}
+
+.box h1{
+    font-size: 15px;
+}
+
+.products{
+    background: #DAFBF0;
+    height: 480px;
+}
+
+.Products-heading{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.flowers{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.flower{
+    margin-top:30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pots{
+    position: relative;
+    top:-50px;
+}
+
+.para{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.pot{
+    text-align: center;
+    font-weight: 500;
+}
+
+.pot img{
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+
+.pot img:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.price{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.price-h{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.testi{
+    margin-top:100px;
+    background: #DAFBF0;
+    height: 300px;
+    display: flex;
+}
+
+.img{
+    position: relative;
+    top: -50px;
+}
+
+.review{
+    margin-top: 70px;
+    margin-left: 70px;
+    width: 850px;
+}
+
+.news{
+    text-align: center;
+}
+
+.news input{
+    width:900px;
+    margin-top: 10px;
+    border :solid grey 1px;
+    height:30px;
+}
+
+.news button{
+    display: block;
+    padding:5px 20px;
+    margin-left:45%;
+    color:white;
+    background: black;
+    outline: none;
+    border:none;
+    margin-top:15px;
+    margin-bottom: 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.footer{
+    background: #DAFBF0;
+    padding-top:50px;
+    padding-left: 20px;
+}
+
+.footer p{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.footer ul{
+    display: flex;
+    margin-left: -10px;
+    margin-top: -2px;
+}
+
+.anchor{
+    margin-left: 10px;
+    font-size: 20px;
+    height:30px;
+   color: black;
+    width:30px;
+    border-radius: 50%;
+}
+
+
+.copyright{
+    background: #DAFBF0;
+    padding-left: 20px;
+    padding-top: 10px;
+    color:grey;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.top{
+    height:30px;
+    width:30px;
+    background: #000;
+    color:white;
+    position: fixed;
+    right:10px;
+    bottom:10px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
